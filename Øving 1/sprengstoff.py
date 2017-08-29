@@ -1,6 +1,6 @@
 from sys import stdin
 
-
+#TNT
 class Record:
     value = None
     next = None

@@ -3,7 +3,6 @@
 class Stack():
 
     def __init__(self,lst):
-        self.top = len(lst) - 1
         self.items = lst
 
 
@@ -27,15 +26,6 @@ class Stack():
 
 def main():
     stack = Stack([1,2,3,4])
-    print(stack)
-    stack.push(5)
-    print(stack)
-    stack.pop()
-    print(stack)
-    stack.pop()
-    stack.pop()
-    stack.pop()
-    print(stack)
-    print(stack.stack_empty())
+
 
 main()

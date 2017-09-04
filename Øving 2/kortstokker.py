@@ -6,7 +6,6 @@ from itertools import repeat
 
 def merge_sort(decks):
     result = split(decks)
-    print(result)
     result_str = ""
     for tup in result:
         result_str += tup[1]
@@ -27,7 +26,6 @@ def merge(left,right):
     i,j = 0,0
     while i<len(left) and j < len(right):
         if left[i] < right[j]:
-            print(left[i])
             result.append(left[i])
             i += 1
         else:
@@ -44,17 +42,17 @@ def merge(left,right):
 
 def main():
     #Read input.
-    # decks = []
-    # for line in stdin:
-    #    (index, csv) = line.strip().split(':')
-    #    deck = list(zip(map(int, csv.split(',')), repeat(index)))
-    #    decks.append(deck)
-    #  #Merge the decks and print result.
-    # print(merge_sort(decks))
+    decks = []
+    for line in stdin:
+       (index, csv) = line.strip().split(':')
+       deck = list(zip(map(int, csv.split(',')), repeat(index)))
+       decks.append(deck)
+     #Merge the decks and print result.
+    print(merge_sort(decks))
 
-    liste = [[(1, 'i'), (3, 'i'), (5, 'i'), (8, 'i')], [(2, 'n')], [(4, 't'), (7, 't')], [(6, 'a')], [(9, 'v')]]
-    print(merge_sort(liste))
-    #print(test(liste))
+    # liste = [[(1, 'i'), (3, 'i'), (5, 'i'), (8, 'i')], [(2, 'n')], [(4, 't'), (7, 't')], [(6, 'a')], [(9, 'v')]]
+    # print(merge_sort(liste))
+    # #print(test(liste))
 
 
 main()

@@ -15,6 +15,11 @@ class Stack():
     def pop(self):
         return self.items.pop()
 
+    def multipop(self,k):
+        while not self.isEmpty() and k > 0:
+            self.pop()
+            k -= 1
+
     def peek(self):
         return self.items[len(self.items) - 1]
 
@@ -22,10 +27,13 @@ class Stack():
         return len(self.items)
 
     def __str__(self):
-        return str(self.lst[0:self.top + 1]) + " top_index = " + str(self.top)
+        return str(self.items)
 
 def main():
     stack = Stack([1,2,3,4])
+    print(stack)
+    stack.multipop(3)
+    print(stack)
 
 
 main()

@@ -13,11 +13,8 @@ class Record:
 def search(record):
     #SKRIV DIN KODE HER
     biggest = record.value
-    done = False
 
-    while not done:
-        if record.next == None:
-            done = True
+    while record != None:
         if record.value > biggest:
             biggest = record.value
         record = record.next

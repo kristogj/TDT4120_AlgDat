@@ -29,6 +29,7 @@ def counting_sort(A,B,maxverdi,index):
             B[C[ord(A[j][index]) - ord('a')] - 1] = A[j]
             C[ord(A[j][index]) -  ord('a')] -= 1
 
+    ## Må finne ut hva jeg skal gjøre med de ordene som ikke har len -1 lik index..
     for i in range(0,len(B)):
         if B[i] == 0:
             p = 0

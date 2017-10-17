@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 from sys import stdin
 
 
@@ -13,22 +12,18 @@ class Node:
 
 
 def dfs(root):
-    if root.ratatosk:
-        return root.depth
-    for child in root.child:
-        child.depth += 1
-        dfs_visit(child)
-
-def dfs_visit(node):
-    for child in node.child:
-
-        dfs_visit(child)
-
+    stack = []
+    stack.append(root)
+    while stack!= []:
+        u = stack.pop()
+        if u.ratatosk:
+            return u.depth
+        for child in u.child:
+            child.depth = u.depth + 1
+        stack += u.child
 
 def bfs(root):
-    #head index 0
     queue = [root]
-    depth = 0
     while queue != []:
         u = queue.pop(0)
         if u.ratatosk:
@@ -36,7 +31,6 @@ def bfs(root):
         for node in u.child:
             queue.append(node)
             node.depth = u.depth + 1
-    return None
 
 
 
@@ -55,8 +49,8 @@ for line in stdin:
         temp_node.child.append(nodes[int(child_number)])
 
 if function == 'dfs':
-    print(bfs(start_node)) #Endre denne...
+    print(dfs(start_node))
 elif function == 'bfs':
     print(bfs(start_node))
 elif function == 'velg':
-    print(bfs(start_node))
+    print(dfs(start_node))

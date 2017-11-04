@@ -13,27 +13,21 @@ def shortest_path(order_list, adjacency_matrix, cities):
 
     price = 0
     last = order_list[0] #er lik startnoden først
-    for x in range(1,len(order_list)):
-        next = order_list[x]
-        if adjacency_matrix[last][next] == maxsize:
+    for city in order_list[1:]:
+        if adjacency_matrix[last][city] == maxsize:
             return "umulig"
         else:
-            price += adjacency_matrix[last][next]
-        last = next
-    return int(price)
+            price += adjacency_matrix[last][city]
+        last = city
+    return price
 
-def Floyd_Warshall(matrix, k):
-    n = k
+def Floyd_Warshall(matrix, n):
     D_0 = matrix
     for k in range(n): #For hver mellomnode
-        d_k = [[0]*n for x in range(n)]
         for i in range(n): #For hver rad i matrisen
             for j in range(n): #For hver element i raden
-                d_k[i][j] = min(D_0[i][j],D_0[i][k] + D_0[k][j])
-        D_0 = d_k
+                D_0[i][j] = min(D_0[i][j],D_0[i][k] + D_0[k][j])
     return D_0
-
-
 
 def convert(str):
     if int(str) == -1:

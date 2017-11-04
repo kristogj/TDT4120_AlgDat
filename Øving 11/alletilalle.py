@@ -25,7 +25,7 @@ def shortest_path(order_list, adjacency_matrix, cities):
 def Floyd_Warshall(matrix, k):
     n = k
     D_0 = matrix
-    for k in range(n):
+    for k in range(n): #For hver mellomnode
         d_k = [[0]*n for x in range(n)]
         for i in range(n): #For hver rad i matrisen
             for j in range(n): #For hver element i raden

@@ -21,8 +21,7 @@ def shortest_path(order_list, adjacency_matrix, cities):
         last = city
     return price
 
-def Floyd_Warshall(matrix, n):
-    D_0 = matrix
+def Floyd_Warshall(D_0, n):
     for k in range(n): #For hver mellomnode
         for i in range(n): #For hver rad i matrisen
             for j in range(n): #For hver element i raden

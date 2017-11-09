@@ -1,6 +1,6 @@
 from sys import stdin
 
-# stdin = open("input.txt")
+stdin = open("input.txt")
 
 def best_path(nm, prob):
     #nm [[0, 1, 1, 0, 0, 0], [1, 0, 0, 1, 1, 0], [1, 0, 0, 1, 1, 0], [0, 1, 1, 0, 0, 1], [0, 1, 1, 0, 0, 1], [0, 0, 0, 1, 1, 0]]

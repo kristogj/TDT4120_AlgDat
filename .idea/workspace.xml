@@ -25,7 +25,7 @@
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$cut_rod.coverage" NAME="cut-rod Coverage Results" MODIFIED="1507020340149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler/Dynamisk programmering" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$bucketsort.coverage" NAME="bucketsort Coverage Results" MODIFIED="1507284809890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler/Rangering i lineær tid" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$kortstokker.coverage" NAME="kortstokker Coverage Results" MODIFIED="1504451025623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 2" />
-    <SUITE FILE_PATH="coverage/TDT4120_AlgDat$quicksort.coverage" NAME="quicksort Coverage Results" MODIFIED="1510238466690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk" />
+    <SUITE FILE_PATH="coverage/TDT4120_AlgDat$quicksort.coverage" NAME="quicksort Coverage Results" MODIFIED="1510239470378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$mumien.coverage" NAME="mumien Coverage Results" MODIFIED="1509484208011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 10" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$skumlehulen.coverage" NAME="skumlehulen Coverage Results" MODIFIED="1509972747279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 12" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$SelectionSort.coverage" NAME="SelectionSort Coverage Results" MODIFIED="1504298380520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler" />
@@ -34,6 +34,7 @@
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$sprengstoff.coverage" NAME="sprengstoff Coverage Results" MODIFIED="1504200796780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 1" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$knapsack.coverage" NAME="knapsack Coverage Results" MODIFIED="1507032647994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler/Dynamisk programmering" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$Bellmand_Ford.coverage" NAME="Bellmand_Ford Coverage Results" MODIFIED="1509804885528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler/Single_Source_Shortest_Path" />
+    <SUITE FILE_PATH="coverage/TDT4120_AlgDat$counting_sort.coverage" NAME="counting_sort Coverage Results" MODIFIED="1510241586312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algoritmer/4.Rangering i lineær tid" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1508064529350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler/GrafAlgoritmer" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$stack.coverage" NAME="stack Coverage Results" MODIFIED="1510230032929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algoritmer/2.Datastrukturer" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$insertion_sort.coverage" NAME="insertion_sort Coverage Results" MODIFIED="1510236207669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algoritmer/1.Problemer og Algoritmer" />
@@ -45,14 +46,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="quicksort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py">
+      <file leaf-file-name="counting_sort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algoritmer/4.Rangering i lineær tid/counting_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Eksempler/Queue.py" />
         <option value="$PROJECT_DIR$/Eksempler/LinkedList.py" />
         <option value="$PROJECT_DIR$/Eksempler/Stack.py" />
         <option value="$PROJECT_DIR$/Eksempler/tst.py" />
@@ -123,6 +121,7 @@
         <option value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/bisect.py" />
         <option value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/merge_sort.py" />
         <option value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py" />
+        <option value="$PROJECT_DIR$/Algoritmer/4.Rangering i lineær tid/counting_sort.py" />
       </list>
     </option>
   </component>
@@ -171,12 +170,6 @@
               <item name="TDT4120_AlgDat" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDT4120_AlgDat" type="462c0819:PsiDirectoryNode" />
               <item name="Algoritmer" type="462c0819:PsiDirectoryNode" />
-              <item name="1.Problemer og Algoritmer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDT4120_AlgDat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDT4120_AlgDat" type="462c0819:PsiDirectoryNode" />
-              <item name="Algoritmer" type="462c0819:PsiDirectoryNode" />
               <item name="3.Splitt og Hersk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -207,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.quicksort">
+  <component name="RunManager" selected="Python.counting_sort">
     <configuration name="bisect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,20 +219,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="dynamic-table" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="counting_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algoritmer/2.Datastrukturer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algoritmer/4.Rangering i lineær tid" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TDT4120_AlgDat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algoritmer/2.Datastrukturer/dynamic-table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algoritmer/4.Rangering i lineær tid/counting_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,19 +292,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.dynamic-table" />
-      <item index="1" class="java.lang.String" itemvalue="Python.bisect" />
-      <item index="2" class="java.lang.String" itemvalue="Python.merge_sort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.insertion_sort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.quicksort" />
+      <item index="0" class="java.lang.String" itemvalue="Python.bisect" />
+      <item index="1" class="java.lang.String" itemvalue="Python.merge_sort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.insertion_sort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.quicksort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.counting_sort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.quicksort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.merge_sort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.insertion_sort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.bisect" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dynamic-table" />
+        <item index="0" class="java.lang.String" itemvalue="Python.counting_sort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.quicksort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.merge_sort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.insertion_sort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bisect" />
       </list>
     </recent_temporary>
   </component>
@@ -416,11 +409,11 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14993122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23796424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -461,18 +454,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="43" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Øving 3/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Øving 1/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -515,13 +501,6 @@
           <folding>
             <element signature="e#20#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Eksempler/Rangering i lineær tid/countingsort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -783,14 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/bisect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Øving 11/alletilalle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -823,6 +794,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -831,13 +812,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py">
+    <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/bisect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eksempler/Rangering i lineær tid/countingsort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algoritmer/4.Rangering i lineær tid/counting_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

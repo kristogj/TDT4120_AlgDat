@@ -25,6 +25,7 @@
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$cut_rod.coverage" NAME="cut-rod Coverage Results" MODIFIED="1507020340149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler/Dynamisk programmering" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$bucketsort.coverage" NAME="bucketsort Coverage Results" MODIFIED="1507284809890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler/Rangering i lineær tid" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$kortstokker.coverage" NAME="kortstokker Coverage Results" MODIFIED="1504451025623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 2" />
+    <SUITE FILE_PATH="coverage/TDT4120_AlgDat$quicksort.coverage" NAME="quicksort Coverage Results" MODIFIED="1510237431524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$mumien.coverage" NAME="mumien Coverage Results" MODIFIED="1509484208011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 10" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$skumlehulen.coverage" NAME="skumlehulen Coverage Results" MODIFIED="1509972747279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 12" />
     <SUITE FILE_PATH="coverage/TDT4120_AlgDat$SelectionSort.coverage" NAME="SelectionSort Coverage Results" MODIFIED="1504298380520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Eksempler" />
@@ -44,21 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="merge_sort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/merge_sort.py">
+      <file leaf-file-name="quicksort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertion_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algoritmer/1.Problemer og Algoritmer/insertion_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="405">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -79,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Eksempler/SelectionSort.py" />
         <option value="$PROJECT_DIR$/Eksempler/Queue.py" />
         <option value="$PROJECT_DIR$/Eksempler/LinkedList.py" />
         <option value="$PROJECT_DIR$/Eksempler/Stack.py" />
@@ -130,6 +120,7 @@
         <option value="$PROJECT_DIR$/Algoritmer/2.Datastrukturer/dynamic-table.py" />
         <option value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/bisect.py" />
         <option value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/merge_sort.py" />
+        <option value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py" />
       </list>
     </option>
   </component>
@@ -140,8 +131,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="522" />
-    <option name="height" value="800" />
+    <option name="x" value="44" />
+    <option name="y" value="23" />
+    <option name="width" value="1236" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,11 +179,6 @@
               <item name="Algoritmer" type="462c0819:PsiDirectoryNode" />
               <item name="3.Splitt og Hersk" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TDT4120_AlgDat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDT4120_AlgDat" type="462c0819:PsiDirectoryNode" />
-              <item name="Øving 9" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -219,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.merge_sort">
+  <component name="RunManager" selected="Python.quicksort">
     <configuration name="bisect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,24 +262,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="linked-list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algoritmer/2.Datastrukturer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TDT4120_AlgDat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algoritmer/2.Datastrukturer/linked-list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,20 +280,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TDT4120_AlgDat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.linked-list" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dynamic-table" />
-      <item index="2" class="java.lang.String" itemvalue="Python.bisect" />
-      <item index="3" class="java.lang.String" itemvalue="Python.merge_sort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.insertion_sort" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dynamic-table" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bisect" />
+      <item index="2" class="java.lang.String" itemvalue="Python.merge_sort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.insertion_sort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.quicksort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.merge_sort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.insertion_sort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bisect" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dynamic-table" />
-        <item index="4" class="java.lang.String" itemvalue="Python.linked-list" />
+        <item index="0" class="java.lang.String" itemvalue="Python.quicksort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.merge_sort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.insertion_sort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bisect" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dynamic-table" />
       </list>
     </recent_temporary>
   </component>
@@ -425,14 +413,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="724" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1829436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14993122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -478,13 +466,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Øving 2/kortstokker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Øving 3/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -844,8 +825,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="437">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algoritmer/3.Splitt og Hersk/quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding />
         </state>
       </provider>

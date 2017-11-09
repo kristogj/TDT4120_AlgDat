@@ -1,10 +1,10 @@
 
-
-def bisect(A,p,r,v):
-    #A er en sortert liste
+#A er en sortert liste
     #p = indeksen til første element
     #r = indeksen til siste element
     #v = verdien til det elementet vi vil finne indeksen til
+
+def bisect(A,p,r,v):
     i = p
     if p < r:
         q = int((p+r)/2) #Finner indeksen til det miderste elementet

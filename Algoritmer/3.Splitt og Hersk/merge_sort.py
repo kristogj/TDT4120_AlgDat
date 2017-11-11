@@ -32,7 +32,7 @@ def merge(L,R):
 
 
 start = time()
-A = [9,1,8,2,7,3,6,4,5,0]*1000
+A = [9,1,8,2,7,3,6,4,5,0]*10000
 print(merge_sort(A))
 end = time()
 print(end-start)

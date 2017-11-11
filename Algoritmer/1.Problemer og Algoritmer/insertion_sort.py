@@ -18,7 +18,7 @@ def insertion_sort(A):
 
 
 start = time()
-A = [9,1,8,2,7,3,6,4,5,0]*1000
+A = [9,1,8,2,7,3,6,4,5,0]*2000
 print(insertion_sort(A))
 end = time()
 print(end-start)
